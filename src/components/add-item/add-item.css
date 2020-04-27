@@ -1,0 +1,9 @@
+.add-item {
+    margin: 1rem 0;
+}
+
+.add-item .form-control {
+    width: auto;
+    flex-grow: 1;
+    margin-right: 3px;
+}
