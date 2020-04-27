@@ -6,11 +6,11 @@ import './todo-list.css';
 const ToDoList = ({ todos }) => {
 
     const elements = todos.map((item) => {
-        const {id , ...itemProps} = item;
+        const { id , ...itemProps } = item;
 
         return (
             <li key={id} className="list-group-item">
-                <ToDoListItem { ...itemProps} />
+                <ToDoListItem { ...itemProps } />
             </li>
         );
     });
